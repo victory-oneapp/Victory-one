@@ -1,0 +1,251 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Victory One tournament app</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Victory One is the ultimate gaming platform where players compete in fair tournaments, win prizes, and enjoy top performance gameplay.">
+    <meta name="keywords" content="Victory One, esports app, tournament app, real money gaming, fair play app, Free Fire tournaments, Victory gaming">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="_7jmEend12zUGAIXHSTPP_l2IrDywYtEEU3wpADhbqE" />
+    <meta name="theme-color" content="#000000">
+
+    <style>
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav {
+            background: red;
+            padding: 15px 35px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .hamburger div {
+            width: 30px;
+            height: 4px;
+            background-color: white;
+            margin: 4px;
+            transition: 0.3s;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                position: absolute;
+                top: 60px;
+                left: 0;
+                background: red;
+                width: 25%;
+                flex-direction: column;
+                display: none;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links a {
+                padding: 15px 0;
+                
+            }
+        }
+
+        section {
+            padding: 80px 20px;
+            margin-top: 60px;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        .game-image {
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px red;
+            margin-bottom: 20px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: red;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 0px 0px 10px red;
+            transition: 0.3s ease-in-out;
+        }
+
+        .download-btn:hover {
+            box-shadow: 0px 0px 20px red;
+            transform: scale(1.05);
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .feature-box {
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0px 0px 10px red;
+        }
+
+        .email-text {
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        footer {
+            background: red;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#download">Download</a>
+            <a href="#features">Features</a>
+            <a href="#support">Support</a>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Victory One</h2>
+        <p>Victory One is the ultimate gaming platform where players compete, win, and earn real money in a fair gaming environment.</p>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download">
+        <h2>Download Victory One</h2>
+        <img src="https://iili.io/FcyPCfR.md.png" alt="Victory One Logo" class="game-image">
+        <p>Click the button below to download and start playing!</p>
+        <a href="https://ga-fs.primexop.com/8129/androidBuilds/victory-oneV1.apk" class="download-btn" download>Download Now</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Features</h2>
+        <div class="features">
+            <div class="feature-box">
+                <h3>🎮 Fair Play</h3>
+                <p>Ensuring a level playing field for all gamers.</p>
+            </div>
+            <div class="feature-box">
+                <h3>⚡ Fast Performance</h3>
+                <p>Optimized for smooth gameplay with no lags.</p>
+            </div>
+            <div class="feature-box">
+                <h3>💰 Earn Real Money</h3>
+                <p>Win cash prizes by competing in tournaments.</p>
+            </div>
+            <div class="feature-box">
+                <h3>🔒 Secure Transactions</h3>
+                <p>Safe and fast withdrawals for your earnings.</p>
+            </div>
+            <div class="feature-box">
+                <h3>📈 Global Leaderboards</h3>
+                <p>Compete with top players and rank up.</p>
+            </div>
+            <div class="feature-box">
+                <h3>🎭 Custom Avatars</h3>
+                <p>Create your unique gaming identity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support">
+        <h2>Support</h2>
+        <p>Need help? Our support team is available 24/7 to assist you.</p>
+        <p>For account-related problems, payment issues, or general inquiries, reach out to us.</p>
+        <p>Email: <a href="mailto:Pateldharmiks2010@gmail.com" class="email-text">Pateldharmiks2010@gmail.com</a></p>
+        <p>We usually respond within 24 hours. Thank you for being a part of Victory One!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Victory One. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById("navLinks");
+            nav.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>
